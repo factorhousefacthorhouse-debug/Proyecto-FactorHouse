@@ -86,4 +86,5 @@ def admin():
 
 if __name__ == '__main__':
     inicializar_db()
+
     app.run(debug=True)
